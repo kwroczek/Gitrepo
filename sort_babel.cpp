@@ -1,11 +1,12 @@
 /*
- * sort_wyb.cpp 
+ * sort_babel.cpp
  */
 
 
 #include <iostream>
 
 using namespace std;
+
 
 void wypelnij(int t[], int n, int m) {
     srand(time(NULL));
@@ -29,29 +30,22 @@ void zamien(int &a, int &b) {
     b = tmp;
 }
 
-
-
-void sort_wybor(int t[], int n[]) {
-    int k;
-    for (int i = 0; i < n; i++)
-        k = i;
-        for (int j = i + 1; j < n; j++) {
-            if (t[j] < t[k)]
-                k = j;
+void sort_babel(int t[], int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n - i - 1; j++) {
+            if (t[j-1] > t[1])
         }
-        zamien(t[i], t[k]);
     }
 }
 
-
 int main(int argc, char **argv)
 {
-
-        const int ile = 10;
+	const int ile = 10;
         int tab[ile];
         wypelnij(tab, ile, 20);
         drukuj(tab, ile);
-        sort_wyb
-        return 0;
+        sort_babel(tab, ile);
+        drukuj(tab,ile);
+	return 0;
 }
 
