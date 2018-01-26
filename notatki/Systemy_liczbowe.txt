@@ -19,3 +19,53 @@ system o podstawie 8
 system o podstawie 16 
 0-9,A, B, C, D, E, F
 FF = 15 * 16^1 + 15*16^0 = 225
+
+
+**KONWERSJA LICZBY DZIESIĘTNEJ**
+
+dec2bin129(10)->10000001(2) -> 128 + 1
+129/2 = 64 reszty 1
+64/2 = 32 reszty 0
+32/2 = 16 reszty 0
+16/2 = 8 reszty 0
+8/2 = 4 reszty 0
+4/2 = 2 reszty 0
+2/2 = 1 reszty 0
+1/2 = 0 reszty 1
+
+174(10) -> 10101110(2) ->  128 + 0 + 32 + 0 + 8 + 4 + 2 + 0
+174/2 = 87 reszty 0
+87/2 = 43 reszty 1
+43/2 = 21 reszty 1
+21/2 = 10 reszty 1
+10/2 = 5 reszty 0
+5/2 = 2 reszty 1
+2/2 = 1 reszty 0
+1/2 = 0 reszty 1
+
+
+174(10) - 128 = 46 
+ 46 - 32 = 14 
+14 - 8 = 6
+6-4 = 2
+2-2 = 0
+
+174(10) -> 256(8) -> 2*64 + 5*8 + 6 = 174
+178/8 = 21 reszty  6
+21/8 = 2 reszty 5
+2/8 = 0 reszty 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
