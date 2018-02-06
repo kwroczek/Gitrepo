@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-01-31T12:17:16+01:00
+
+====== Python ======
+Created środa 31 styczeń 2018
+
+# ord(znak) - kod ASCII znaku
+#chr("kod_ASCII") - zwraca znak o podanym kodzie
+# int() - konwersja na liczbę całkowitą
+# str() - konwersja na napis
+#len(sekwencja) - długość sekwencji
+#str.format - formatowane wyjście
+
+#SEKWENCJE - to napisy, str, liczby, słowniki
+
+**UNIKOD** - wszystkie pisma używane na świecie
+UTF8 używa się w standardzie
+uzywa 1-6 bajtów 
+
+
+1 spodobem kmpresji jest //Kod Morse'a//
+
+000111000 - SOS
+
+kompresja może być stratna i bezstratna
+alfabet Morsea jest przykladem kompresji bezstratnej
+
+
+null 0
+Line Feed LF 10
+carriage return CR 13
+znak konca linii sklada sie z LF i CR w windowsach, w linuxach tylko CR
+
+
+***---***
+000111000 
+
+The rain in Spain falls mainly on the plain ⇒ 44 znaki 
+The rain <3,3> Sp<9,4>falls m<11,3>ly on  t<34,3>pl<15,3> ⇒
+
+ile znaków wstecz ⇒ 6 bitów
+długość ciągu ⇒ 
