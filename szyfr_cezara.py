@@ -18,8 +18,16 @@ def szyfruj(tekst, klucz):
 
 def deszyfruj(szyfrogram, klucz):
     tekst = ""
-    pass
-    return tekst
+    for znak in szyfrogram:
+        ascii = ord(znak) - klucz
+        if ord(znak) == 32:
+            ascii = 32
+        if ascii > 90 and ascii < 97:
+            ascii -= 26
+        elif ascii > 122:
+            ascii -= 26
+        tekst += chr(ascii)
+return tekst
 
 #obsłużyć małe i duże litery
 #obsłużyć spacje

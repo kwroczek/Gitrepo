@@ -41,3 +41,20 @@ The rain <3,3> Sp<9,4>falls m<11,3>ly on  t<34,3>pl<15,3> ⇒
 
 ile znaków wstecz ⇒ 6 bitów
 długość ciągu ⇒ 
+
+
+__RODZAJE SZYFRÓW__ 
+
+//1) Podstawieniowe// 
+szyfr cezara, klucz to doległość zastępnika
+
+//2) Przestawieniowe//
+Zapis tekstu w wierszach o ustalonej długości
+
+
+
+
+
+
+
+
