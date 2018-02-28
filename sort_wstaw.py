@@ -18,7 +18,7 @@ def main(args):
     lista = [4, 3, 7, 0, 2, 3, 1, 9, -4]
     lista = [4, 3, 7, 0, 2, 3, 1, 9, -4]
     print(lista)
-    print(sort_wstaw(lista))
+    print(sort_wstaw(lista)) 
 
     return 0
 
